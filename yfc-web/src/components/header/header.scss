@@ -1,0 +1,101 @@
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  position: sticky;
+
+  top: 0;
+  height: 110px;
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+
+  .left {
+    height: 100%;
+    margin-left: 15px;
+    // border: 1px solid red;
+    display: flex;
+    align-items: center;
+    // background-image: url("../../assets/images/yfc_mark.png");
+    // background-size: contain;
+    // background-repeat: no-repeat;
+    // background-position: center;
+    text-align: center;
+
+    .logo {
+      img {
+        height: 90px;
+        margin-right: 7px;
+      }
+
+      h2 {
+        font-family: "Hammersmith One", sans-serif;
+        font-size: 32px;
+        line-height: 1.2;
+        color: navy;
+      }
+    }
+
+    .logo:hover {
+      cursor: pointer;
+    }
+
+    .menu {
+      margin-left: 130px;
+      display: flex;
+      align-items: center;
+
+      li {
+        font-size: 20px;
+
+        a {
+          color: white;
+          padding: 18px;
+          margin: 0 18px;
+        }
+
+        a:hover {
+          color: rgb(24, 50, 77);
+          border-bottom: 3px solid red;
+        }
+      }
+    }
+  }
+
+  .right {
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+
+    a {
+      padding: 0 7px;
+      font-size: 14px;
+      font-family: "Orbit", sans-serif;
+    }
+
+    .line {
+      background-color: black;
+      width: 1px;
+      height: 14px;
+      margin-top: 2px;
+    }
+
+    .menubtn {
+      margin-left: 15px;
+      font-size: 35px;
+      margin-top: 5px;
+    }
+
+    .menubtn:hover {
+      cursor: pointer;
+    }
+  }
+}
