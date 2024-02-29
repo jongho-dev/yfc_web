@@ -14,10 +14,11 @@ header {
   justify-content: center;
   position: sticky;
   top: 0;
+  background-color: white;
   border-bottom: 1px solid lightgray;
 
   .inline_wide {
-    width: 1600px;
+    width: 1300px;
     height: 100%;
     padding: 0 5px 0 10px;
     display: flex;
