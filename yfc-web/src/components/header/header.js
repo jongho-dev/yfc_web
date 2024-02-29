@@ -19,22 +19,22 @@ export default function Header() {
         className="inline_wide"
         style={{ display: size == "wide" ? "flex" : "none" }}
       >
-        <a href="" className="left">
+        <a href="/" className="left">
           <img src={Logo} className="logo" alt="" />
         </a>
         <div className="right">
           <ul className="menu">
             <li>
-              <a href="">소개</a>
+              <a href="/introduction">소개</a>
             </li>
             <li>
-              <a href="">활동</a>
+              <a href="/activity">활동</a>
             </li>
             <li>
-              <a href="">지원하기</a>
+              <a href="/recruit">지원하기</a>
             </li>
             <li>
-              <a href="">로그인</a>
+              <a href="/login">로그인</a>
             </li>
           </ul>
         </div>
@@ -43,7 +43,7 @@ export default function Header() {
         className="inline_small"
         style={{ display: size == "wide" ? "none" : "flex" }}
       >
-        <a href="" className="left">
+        <a href="/" className="left">
           <img src={Logo} className="logo" alt="" />
         </a>
         <IoMenu className="right-menubtn" />

@@ -1,5 +1,5 @@
-import React from "rect";
+import React from "react";
 
 export default function IntroductionPage() {
-  return <div></div>;
+  return <div>소개</div>;
 }
