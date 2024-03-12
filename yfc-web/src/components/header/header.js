@@ -31,7 +31,7 @@ export default function Header() {
               <a href="/activity">활동</a>
             </li>
             <li>
-              <a href="/recruit">지원하기</a>
+              <a href="/recruit">모집</a>
             </li>
             <li>
               <a href="/login">로그인</a>

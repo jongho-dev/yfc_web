@@ -16,6 +16,7 @@ header {
   top: 0;
   background-color: white;
   border-bottom: 1px solid lightgray;
+  z-index: 999;
 
   .inline_wide {
     width: 1300px;
@@ -47,7 +48,11 @@ header {
         li {
           a {
             font-size: 17px;
-            font-family: "Orbit", sans-serif;
+            font-family: "Pretendard Variable", Pretendard, -apple-system,
+              BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue",
+              "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic",
+              "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+              sans-serif;
             font-weight: bold;
             color: black;
             padding: 18px;
