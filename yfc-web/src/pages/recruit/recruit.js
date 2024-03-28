@@ -12,9 +12,45 @@ export default function RecruitPage() {
 
   return (
     <div className="recruit">
-      {/* <div className="schedule">
+      <div className="target">
+        <h3>지원 방법</h3>
+        <div className="targetbox">
+          <div>
+            <h3>지원 대상</h3>
+            <h4>- 연속 2학기 이상 활동할 수 있는 사람</h4>
+            <h4>- 신촌 운동에 참여할 수 있는 사람</h4>
+            <h4>- 대학생/대학원생 누구나</h4>
+          </div>
+          <div>
+            <h3>우대 대상</h3>
+            <h4>- 펜싱부 운동을 자주 나올 수 있는 사람</h4>
+            <h4>- 펜싱을 배워본 경험이 있는 사람</h4>
+          </div>
+
+          <div>
+            <h3>지원 방법</h3>
+            <h4>- 1차 서류 </h4>
+            <h4>- 2차 구두 면접</h4>
+            <h4>- 3차 운동 면접</h4>
+          </div>
+        </div>
+      </div>
+      <div className="schedule">
         <h3>모집 일정</h3>
-      </div> */}
+        <div className="schedulebox">
+          <div>
+            <h3>서류 지원</h3>
+            <h4>- 마감: 3월 8일 (금) 18시</h4>
+            <h4>- 발표: 3월 8일 (금) 22시</h4>
+          </div>
+          <div>
+            <h3>구두 면접</h3>
+            <h4>- 일시: 3</h4>
+          </div>
+          <div>3</div>
+          <div>4</div>
+        </div>
+      </div>
       <div className="qna">
         <h3>자주 하는 질문</h3>
         <ul>
@@ -34,7 +70,7 @@ export default function RecruitPage() {
               />
             </div>
             <div className="answer" style={{ opacity: q1Open ? "1" : "0" }}>
-              A. 플러레와 에페를 다루고 있으나 주종목을 플러레입니다.
+              A. 플러레와 에페를 다루고 있으나 주종목은 플러레입니다.
             </div>
           </li>
           <li style={{ height: q2Open ? "175px" : "98px" }}>
@@ -56,7 +92,7 @@ export default function RecruitPage() {
               A. 괜찮습니다! 신입부원 대다수가 펜싱 초보자이며 다같이 기본
               스텝부터 배울 예정입니다.
               <br />
-              &ensp; (전문 플러레 코치님과의 훈련, 선배님들과의 1:1 강습 가능)
+              &emsp; (전문 플러레 코치님과의 훈련, 선배님들과의 1:1 강습 가능)
             </div>
           </li>
           <li style={{ height: q3Open ? "148px" : "98px" }}>
@@ -116,8 +152,8 @@ export default function RecruitPage() {
             <div className="answer" style={{ opacity: q5Open ? "1" : "0" }}>
               A. 연세펜싱부는 대회 출전을 목표로 훈련에 임하기에 어느정도 실력만
               갖춰졌다면 가능합니다! <br />
-              &emsp;&ensp;또한 Y-CUP의 경우 전원 필수 참여로, 선수 혹은 스텝으로
-              참여해야 합니다.
+              &ensp;&ensp; 또한 Y-CUP의 경우 전원 필수 참여로, 선수 혹은
+              스텝으로 참여해야 합니다.
             </div>
           </li>
           <li style={{ height: q6Open ? "175px" : "98px" }}>
@@ -137,7 +173,8 @@ export default function RecruitPage() {
             </div>
             <div className="answer" style={{ opacity: q6Open ? "1" : "0" }}>
               A. 와이어를 제외한 모든 장비는 공용으로 대여 가능합니다! <br />
-              &emsp; 신입 훈련 기간에도 공용 장비를 이용하여 훈련을 진행합니다.
+              &ensp;&ensp; 신입 훈련 기간에도 공용 장비를 이용하여 훈련을
+              진행합니다.
             </div>
           </li>
         </ul>

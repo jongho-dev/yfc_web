@@ -1,15 +1,12 @@
 import React from "react";
 import "./home.scss";
 import AboutPage from "../about/about";
+import ActivityPage from "../activity/activity";
 import RecruitPage from "../recruit/recruit";
 import MainPic from "../../assets/images/mainpicture.png";
 import MaPic from "../../assets/images/mapic.png";
 
 export default function HomePage() {
-  window.addEventListener("resize", () => {
-    console.log(window.innerWidth);
-    console.log(window.innerHeight);
-  });
   return (
     <div className="home">
       <div className="main">
@@ -18,6 +15,7 @@ export default function HomePage() {
       </div>
 
       <AboutPage />
+      <ActivityPage />
       <RecruitPage />
     </div>
   );
